@@ -9,6 +9,9 @@
        width: 100%;    
         }
     padding: 120px;
+    @media (max-width: 750px) {
+        padding: 40px;
+      }
 }
 .wrapper {
 display: grid;
